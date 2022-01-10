@@ -1,35 +1,30 @@
-class Message
-{
+class Message {
 public:
-	Message(){};
+    Message() {};
 
-	virtual ~Message(){};
+    virtual ~Message() {};
 
-	virtual Message *Clone() = 0;
+    virtual Message *Clone() = 0;
 };
 
-class FixMessage : public Message
-{
+class FixMessage : public Message {
 public:
-	FixMessage(){};
+    FixMessage() {};
 
-	~FixMessage(){};
+    ~FixMessage() {};
 
-	Message *Clone() override
-	{
-		return new FixMessage();
-	}
+    Message *Clone() override {
+        return new FixMessage();
+    }
 };
 
-class NativeMessage : public Message
-{
+class NativeMessage : public Message {
 public:
-	NativeMessage(){};
+    NativeMessage() {};
 
-	~NativeMessage(){};
+    ~NativeMessage() {};
 
-	Message *Clone() override
-	{
-		return new NativeMessage();
-	}
+    Message *Clone() override {
+        return new NativeMessage();
+    }
 };

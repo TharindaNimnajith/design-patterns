@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Composite/CompositeDesignPattern.iml" filepath="$PROJECT_DIR$/Composite/CompositeDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Decorator/DecoratorPattern.iml" filepath="$PROJECT_DIR$/Decorator/DecoratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns2.iml" filepath="$PROJECT_DIR$/.idea/design-patterns2.iml" />
     </modules>
   </component>
 </project>

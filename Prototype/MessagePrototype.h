@@ -1,18 +1,14 @@
 #include "Message.h"
 
-class MessagePrototype
-{
+class MessagePrototype {
 public:
-	MessagePrototype()
-	{
-	}
+    MessagePrototype() {
+    }
 
-	Message *Clone(Message *message)
-	{
-		return message->Clone();
-	}
+    Message *Clone(Message *message) {
+        return message->Clone();
+    }
 
-	~MessagePrototype()
-	{
-	}
+    ~MessagePrototype() {
+    }
 };

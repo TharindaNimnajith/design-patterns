@@ -4,64 +4,54 @@
 #include "PostTradeParam.h"
 #include "Instrument.h"
 
-class InstrumentBuilder
-{
+class InstrumentBuilder {
 public:
-	InstrumentBuilder(){};
+    InstrumentBuilder() {};
 
-	virtual ~InstrumentBuilder(){};
+    virtual ~InstrumentBuilder() {};
 
-	virtual void CreateTradingParam() = 0;
+    virtual void CreateTradingParam() = 0;
 
-	virtual void CreatePostTradeParam() = 0;
+    virtual void CreatePostTradeParam() = 0;
 
-	Instrument *GetInstrument()
-	{
-		return m_instrument;
-	}
+    Instrument *GetInstrument() {
+        return m_instrument;
+    }
 
 protected:
-	Instrument *m_instrument;
+    Instrument *m_instrument;
 };
 
-class FixedIncomeBuilder : public InstrumentBuilder
-{
+class FixedIncomeBuilder : public InstrumentBuilder {
 public:
-	FixedIncomeBuilder()
-	{
-		m_instrument = new FixIncomeInstrument();
-	};
+    FixedIncomeBuilder() {
+        m_instrument = new FixIncomeInstrument();
+    };
 
-	~FixedIncomeBuilder(){};
+    ~FixedIncomeBuilder() {};
 
-	void CreateTradingParam() override
-	{
-		m_instrument->SetTradingParameter(new FixTradingParm());
-	}
+    void CreateTradingParam() override {
+        m_instrument->SetTradingParameter(new FixTradingParm());
+    }
 
-	void CreatePostTradeParam() override
-	{
-		m_instrument->SetPostTradeParam(new FixPostTradeParam());
-	}
+    void CreatePostTradeParam() override {
+        m_instrument->SetPostTradeParam(new FixPostTradeParam());
+    }
 };
 
-class EquityBuilder : public InstrumentBuilder
-{
+class EquityBuilder : public InstrumentBuilder {
 public:
-	EquityBuilder()
-	{
-		m_instrument = new EquityInstrument();
-	};
+    EquityBuilder() {
+        m_instrument = new EquityInstrument();
+    };
 
-	~EquityBuilder(){};
+    ~EquityBuilder() {};
 
-	void CreateTradingParam() override
-	{
-		m_instrument->SetTradingParameter(new NormalTradingParm());
-	}
+    void CreateTradingParam() override {
+        m_instrument->SetTradingParameter(new NormalTradingParm());
+    }
 
-	void CreatePostTradeParam() override
-	{
-		m_instrument->SetPostTradeParam(new NormalPostTradeParam());
-	}
+    void CreatePostTradeParam() override {
+        m_instrument->SetPostTradeParam(new NormalPostTradeParam());
+    }
 };

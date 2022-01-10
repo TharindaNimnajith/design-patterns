@@ -2,42 +2,37 @@
 
 #include <iostream>
 
-class Timer
-{
+class Timer {
 public:
-	Timer(){};
+    Timer() {};
 
-	~Timer(){};
+    ~Timer() {};
 
-	virtual void SetTime(int unit) = 0;
+    virtual void SetTime(int unit) = 0;
 
-	int timeInMicro;
+    int timeInMicro;
 
-	void showTime() { std::cout << "Time : " << timeInMicro << std::endl; };
+    void showTime() { std::cout << "Time : " << timeInMicro << std::endl; };
 };
 
-class SecondsTimer : public Timer
-{
+class SecondsTimer : public Timer {
 public:
-	SecondsTimer(){};
+    SecondsTimer() {};
 
-	virtual ~SecondsTimer(){};
+    virtual ~SecondsTimer() {};
 
-	void SetTime(int unit) override
-	{
-		timeInMicro = unit * 1000000;
-	}
+    void SetTime(int unit) override {
+        timeInMicro = unit * 1000000;
+    }
 };
 
-class MilliSecondTimer : public Timer
-{
+class MilliSecondTimer : public Timer {
 public:
-	MilliSecondTimer(){};
+    MilliSecondTimer() {};
 
-	virtual ~MilliSecondTimer(){};
+    virtual ~MilliSecondTimer() {};
 
-	void SetTime(int unit) override
-	{
-		timeInMicro = unit * 1000;
-	}
+    void SetTime(int unit) override {
+        timeInMicro = unit * 1000;
+    }
 };

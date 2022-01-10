@@ -1,43 +1,38 @@
 #pragma once
 
-class PostTradeParam
-{
+class PostTradeParam {
 public:
-	PostTradeParam(){};
+    PostTradeParam() {};
 
-	virtual ~PostTradeParam(){};
+    virtual ~PostTradeParam() {};
 
-	virtual void SetInformation() = 0;
+    virtual void SetInformation() = 0;
 
-	virtual void Print() = 0;
+    virtual void Print() = 0;
 };
 
-class NormalPostTradeParam : public PostTradeParam
-{
+class NormalPostTradeParam : public PostTradeParam {
 public:
-	NormalPostTradeParam(){};
+    NormalPostTradeParam() {};
 
-	~NormalPostTradeParam(){};
+    ~NormalPostTradeParam() {};
 
-	void SetInformation() override {}
+    void SetInformation() override {}
 
-	void Print() override
-	{
-		std::cout << "NormalPostTradeParam" << std::endl;
-	}
+    void Print() override {
+        std::cout << "NormalPostTradeParam" << std::endl;
+    }
 };
 
-class FixPostTradeParam : public PostTradeParam
-{
+class FixPostTradeParam : public PostTradeParam {
 public:
-	FixPostTradeParam(){};
+    FixPostTradeParam() {};
 
-	~FixPostTradeParam(){};
+    ~FixPostTradeParam() {};
 
-	void SetInformation() override {}
+    void SetInformation() override {}
 
-	void Print() override
-	{
-		std::cout << "FixPostTradeParam" << std::endl;
-	}
+    void Print() override {
+        std::cout << "FixPostTradeParam" << std::endl;
+    }
 };

@@ -2,30 +2,26 @@
 
 #include "Timer.h"
 
-enum TimerEnum
-{
-	SecondsTimerEnum,
-	MilliSecondTimerEnum,
-	MicroSecondTimerEnum
+enum TimerEnum {
+    SecondsTimerEnum,
+    MilliSecondTimerEnum,
+    MicroSecondTimerEnum
 };
 
-class TimerFactory
-{
+class TimerFactory {
 public:
-	TimerFactory(){};
+    TimerFactory() {};
 
-	~TimerFactory(){};
+    ~TimerFactory() {};
 
-	Timer *CreateTimer(TimerEnum type)
-	{
-		switch (type)
-		{
-		case TimerEnum::SecondsTimerEnum:
-			return new SecondsTimer();
-		case TimerEnum::MilliSecondTimerEnum:
-			return new MilliSecondTimer();
-		default:
-			return 0;
-		};
-	}
+    Timer *CreateTimer(TimerEnum type) {
+        switch (type) {
+            case TimerEnum::SecondsTimerEnum:
+                return new SecondsTimer();
+            case TimerEnum::MilliSecondTimerEnum:
+                return new MilliSecondTimer();
+            default:
+                return 0;
+        }
+    }
 };
