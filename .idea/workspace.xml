@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d9432f8-6838-43fe-824e-c4ba55cc4c8b" name="Changes" comment="build" />
+    <list default="true" id="1f9e32a6-7bd7-46fe-aa6b-b1901bad84dd" name="Changes" comment="exec">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,25 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="6mlr8fv2" />
+    <option name="directoryName" value="gqahjoxb" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectApplicationVersion">
-    <option name="ide" value="CLion" />
-    <option name="majorVersion" value="2021" />
-    <option name="minorVersion" value="3.2" />
-  </component>
-  <component name="ProjectId" id="23WKhIadIblphuT9qHjXWkZa8QY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="23WTRS3bhS0GIokq8bnGWiIexLg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -53,9 +48,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.cidr.embedded.config" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="design_patterns" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="design_patterns" TARGET_NAME="design_patterns" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="design_patterns" RUN_TARGET_NAME="design_patterns">
@@ -67,19 +62,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d9432f8-6838-43fe-824e-c4ba55cc4c8b" name="Changes" comment="" />
-      <created>1641844526122</created>
+      <changelist id="1f9e32a6-7bd7-46fe-aa6b-b1901bad84dd" name="Changes" comment="" />
+      <created>1641848696429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1641844526122</updated>
-      <workItem from="1641844530549" duration="59000" />
+      <updated>1641848696429</updated>
+      <workItem from="1641848699524" duration="126000" />
+      <workItem from="1641848857517" duration="4000" />
     </task>
-    <task id="LOCAL-00001" summary="build">
-      <created>1641844572483</created>
+    <task id="LOCAL-00001" summary="exec">
+      <created>1641848799898</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1641844572483</updated>
+      <updated>1641848799898</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -99,7 +95,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build" />
-    <option name="LAST_COMMIT_MESSAGE" value="build" />
+    <MESSAGE value="exec" />
+    <option name="LAST_COMMIT_MESSAGE" value="exec" />
   </component>
 </project>

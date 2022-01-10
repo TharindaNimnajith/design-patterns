@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="design_patterns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/design-patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="design_patterns">
+				<Option output="D:/design-patterns/cmake-build-debug/design_patterns.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/design-patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/design-patterns/AbstractFactory"/>
+					<Add directory="D:/design-patterns/Builder"/>
+					<Add directory="D:/design-patterns/Factory"/>
+					<Add directory="D:/design-patterns/Prototype"/>
+					<Add directory="D:/design-patterns/Singleton"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 design_patterns"/>
+					<CompileFile command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="design_patterns/fast">
+				<Option output="D:/design-patterns/cmake-build-debug/design_patterns.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/design-patterns/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/design-patterns/AbstractFactory"/>
+					<Add directory="D:/design-patterns/Builder"/>
+					<Add directory="D:/design-patterns/Factory"/>
+					<Add directory="D:/design-patterns/Prototype"/>
+					<Add directory="D:/design-patterns/Singleton"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 design_patterns/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/design-patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/design-patterns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\design-patterns\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/design-patterns/AbstractFactory/Main.cpp">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/AbstractFactory/User.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/AbstractFactory/UserFactory.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/AbstractFactory/UserGenerator.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Builder/Instrument.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Builder/InstrumentBuilder.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Builder/InstrumentCreator.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Builder/Main.cpp">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Builder/PostTradeParam.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Builder/TradingParam.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Factory/Main.cpp">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Factory/Timer.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Factory/TimerFactory.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Prototype/Main.cpp">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Prototype/Message.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Prototype/MessagePrototype.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Singleton/Main.cpp">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/Singleton/Utils.h">
+			<Option target="design_patterns"/>
+		</Unit>
+		<Unit filename="D:/design-patterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
