@@ -8,14 +8,14 @@ public:
 
     virtual ~User(void) {};
 
-    virtual void SetDetails(string username, string password) = 0;
+    virtual void SetDetails(std::string username, std::string password) = 0;
 
     virtual void ViewDetails() = 0;
 
 protected:
-    string m_username;
+    std::string m_username;
 
-    string m_password;
+    std::string m_password;
 };
 
 class Trader : public User {
@@ -24,7 +24,7 @@ public:
 
     ~Trader() {};
 
-    void SetDetails(string username, string password) override {
+    void SetDetails(std::string username, std::string password) override {
         m_username = username;
         m_password = password;
     }
@@ -40,7 +40,7 @@ public:
 
     ~Admin() {}
 
-    void SetDetails(string username, string password) override {
+    void SetDetails(std::string username, std::string password) override {
         m_username = username;
         m_password = password;
     }

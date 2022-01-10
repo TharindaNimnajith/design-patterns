@@ -11,7 +11,7 @@ public:
 
     ~UserGenerator() {};
 
-    User *CreateUser(UserType type, string name, string password) {
+    User *CreateUser(UserType type, std::string name, std::string password) {
         switch (type) {
             case UserType::TraderEnum:
                 return m_traderFactory.createUser(name, password);

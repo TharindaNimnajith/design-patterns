@@ -15,12 +15,12 @@ public:
 
     ~UserFactory(void) {}
 
-    virtual User *createUser(string username, string password) = 0;
+    virtual User *createUser(std::string username, std::string password) = 0;
 };
 
 class TraderFactory : public UserFactory {
 public:
-    User *createUser(string username, string password) override {
+    User *createUser(std::string username, std::string password) override {
         User *user = new Trader();
         user->SetDetails(username, password);
         return user;
@@ -29,7 +29,7 @@ public:
 
 class AdminFactory : public UserFactory {
 public:
-    User *createUser(string username, string password) override {
+    User *createUser(std::string username, std::string password) override {
         User *user = new Admin();
         user->SetDetails(username, password);
         return user;
